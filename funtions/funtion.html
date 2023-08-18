@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>function</title>
+</head>
+<body>
+
+	<!--normal function
+	<script type="text/javascript">
+    	function test(){
+		   alert("testing");
+		}
+    	test();
+    </script>-->
+
+    <!--function with one parameter
+    <script type="text/javascript">
+
+                //ex1
+		function vivek(a="s")
+		{
+            document.write(a,"<br>")
+		}
+		vivek('siva');
+
+                //ex2
+		var b=prompt("scan your id here");
+		function scanyourid(rollno){
+			document.write(rollno,"<br>")
+		}
+		scanyourid(b)
+    </script>-->
+
+    <!--function with two parameter
+    <script type="text/javascript">
+		
+             function nummber(a,b){
+             	document.write(a+b,"<br>",a-b,"<br>",a*b,"<br>",a/b)
+             }
+             nummber(20,10)
+	</script>-->
+
+	<!--anonymous function is a function without having function name
+	<script type="text/javascript">
+		var x=function(a,b){
+			return a*b
+		}
+		document.write(x(2,2))
+	</script>-->
+
+	<!--es6 arrow function
+	<script type="text/javascript">
+		//never use function keyword
+		//ex1
+		ips=a => {
+			document.write(a)
+		}
+	    ips('vivek')
+	    document.write("<br>")
+	    //ex2
+	    s=(a,b) => {
+			document.write(a+b)
+		}
+	    s(2,3)
+	    document.write("<br>")
+	    //arrow function with no argument
+	    test=() =>{
+	    	document.write("testings")
+	    }
+	    test()
+	</script>-->
+	<!--set timeout function-->
+	<script type="text/javascript">
+	    setTimeout(function(){
+	    	document.write("vivek","<br>")
+	    },1000)
+	    //callback is a function within the function as a argument
+	    setTimeout(test,2000)
+	    function test(){
+	    	document.write("vivek")
+	    }
+	</script>
+</body>
+</html>

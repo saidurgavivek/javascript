@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>java script</title>
+</head>
+<body>
+	<h1>Java script</h1>
+    <script type="text/javascript" src="java script.js"></script>
+    <script>
+    	var name='vivek'
+        name+='sai';
+        document.write(name,"<br>");
+        document.write(name.length,"<br>");
+    </script>
+    <script>
+    	var name='vivek';
+    	name+=' siva';
+    	name+=',ips';
+    	document.write(name,"<br>");
+    </script>
+    <script>
+    	var  arr=['vivek',2,true];
+    	document.write(typeof(arr),"<br>");
+    	document.write(arr,"<br>");
+    	document.write(arr[1],arr[2]);
+    </script>
+    <h1>task1</h1>
+    <script>
+   	var e=['vivek','siva','ips','cr'];
+   	document.write(e[2]+" ",e[3],"<br>");
+   	var obj=[{
+   		'name':'vivek',
+   		'rollno':'69',
+   		'college':'APC',
+   	},
+   	{
+   		'name':'siva',
+   		'rollno':'78',
+   		'college':'APC',
+   	},
+   	{
+        'name':'ips',
+   		'rollno':'111',
+   		'college':'APC',
+   	},
+   	{
+        'name':'cr',
+   		'rollno':'126',
+   		'college':'APC',
+   	}]
+   	
+   	console.log(obj[0].name);
+   	console.log(obj[1].college);
+   	console.log(obj[1].name);
+   	console.log(obj[1].rollno);
+   	console.log(obj[2].name);
+   	console.log(obj[3].college);
+   	console.log(obj[3].name);
+   	console.log(obj[2].rollno);
+   </script>
+     <script>
+        console.log("task2")
+   		var obj=[{
+   		'name':'vivek',
+   		'rollno':'69',
+   		'college':'APC',
+        'emali':'vivekkumdum@gmali'
+   	},
+   	{
+   		'name':'siva',
+   		'rollno':'78',
+   		'college':'APC',
+   	},
+   	{
+        'name':'ips',
+   		'rollno':'111',
+   		'college':'APC',
+   	},
+   	{
+        'name':'cr',
+   		'rollno':'126',
+   		'college':'APC',
+   	}]
+         for (var i=0;i<obj.length;i++){
+      for (var key in obj[i]){
+        console.log(obj[i][key])
+                                  }
+                                       }
+</script>
+ </body>
+</html>
